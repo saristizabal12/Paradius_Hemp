@@ -1,0 +1,160 @@
+/* body
+{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  background-color: #e87191;
+} */
+body{
+  font-family: 'Montserrat';font-size: 15px;
+  height: 100vh;
+  /* overflow: ov; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: #e87191;
+  /* background-color: #00a0b0; */
+
+
+}
+.container{
+    position: relative;
+    padding: 0px;
+    height: auto;
+    width: auto;
+    box-sizing: border-box;
+    background-color: #e87191;
+    /* background-color: #00a0b0; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+/* .container{
+  width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+.verify {
+
+  justify-content: center;
+  display: flex;
+}
+
+.content {
+  /* background-color: black; */
+  color: white;
+  border: white;
+  border-radius: 5%;
+  justify-content: center;
+}
+.logos-main img{
+  /* border-radius: 10%; */
+  justify-content: center;
+  display: flex;
+  height: 50px;
+  width: auto;
+  align-items: center;
+  margin: auto;
+  position: auto;
+}
+.content-border{
+  width: 300px;
+  height: auto;
+  border: 10px solid white;
+  background-color: #00a0b0;
+  padding: 10px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.content h1{
+  justify-content: center;
+  text-align: center;
+}
+.content h2{
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: auto;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    justify-content: center;
+  }
+  
+  .button1 {
+    border-radius: 5%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #40D3DC;
+  }
+  
+  .button1:hover {
+    background-color: #40D3DC;
+    color: white;
+  }
+  
+  .button2 {
+    border-radius: 5%;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #40D3DC;
+  }
+  
+  .button2:hover {
+    background-color: #40D3DC;
+    color: white;
+  }
+
+  /* .content .logos-main2 img{
+    justify-content: center;
+    display: flex;
+    height: 400px;
+    width: auto;
+    align-items: center;
+    margin: auto;
+  } */
+
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.pic-row .column {
+  
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  justify-content: center;
+}
+/* .pic-row .column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  justify-content: center;
+}
+.pic-row .column3 {
+  float: right;
+  width: 33.33%;
+  padding: 5px;
+  justify-content: center;
+  vertical-align: auto;
+} */
+
+/* Clear floats after image containers */
+.pic-row .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
